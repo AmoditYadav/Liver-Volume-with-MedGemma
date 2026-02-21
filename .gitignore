@@ -1,0 +1,40 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Local data (don't upload to HF Spaces)
+LiverData/
+results/
+preprocessing/
+
+# Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Environment files
+.env
+
+# Temp files
+*.tmp
+10.1
+2
+dump*
+pyc_dump*
+
+# Model & Large Files
+model_medgemma/
+medgemma_slices/
+Swin-Unet-VS-Unet-Baseline-for-Segmentation/
+medgemma_tutorial/

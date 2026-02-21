@@ -1,0 +1,22 @@
+# PyTorch CPU for HF Spaces
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+
+# Medical imaging
+monai>=1.5.0
+nibabel
+einops
+
+# LLM / Report generation
+transformers==4.51.3
+accelerate
+
+# Gradio
+gradio
+
+# Visualization & utilities
+matplotlib
+Pillow
+scipy
+numpy
